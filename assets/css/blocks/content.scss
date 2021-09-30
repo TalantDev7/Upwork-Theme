@@ -1,0 +1,151 @@
+.intro_section{
+    margin-top: 78px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #D8D8D8;
+    .intro_flex{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        .section_title{
+            font-size: 33px;
+            line-height: 38px;
+            letter-spacing: 14px;
+            text-align: center;
+            padding-bottom: 245px;
+            margin: 0px;
+        }
+    }
+
+}
+
+.images_section{
+    padding: 210px 0px 0px 0px;
+    .images_flex{
+        display: flex;
+        justify-content: space-between;
+        .image_col{
+            position: relative;
+            &:nth-child(1){
+                img{
+                    max-width: 550px;
+                    width: 100%;
+                }
+            }
+            &:nth-child(2){
+                img{
+                    max-width: 550px;
+                    position: relative;
+                    margin-top: 127px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.the_building_section{
+    padding: 350px 0px 50px 0px;
+    position: relative;
+    .the_building_left_bg{
+        width: 230px;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        img{
+            max-width: 100%;
+        }
+    }
+    .the_building_right_bg{
+        width: 300px;
+        position: absolute;
+        right: 50px;
+        top: 270px;
+        img{
+            max-width: 100%;
+        }
+    }
+    .section_title{
+        font-family: Butler Stencil;
+        font-weight: bold;
+        font-size: 55px;
+        line-height: 55px;
+        text-align: center;
+        letter-spacing: -0.02px;
+        color: $linkcolor;
+        max-width: 550px;
+        margin: 0px auto 100px auto;
+    }
+    .section_text{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: -0.01px;
+        color: $linkcolor;
+        max-width: 470px;
+        text-align: center;
+        margin: 0px auto 200px auto;
+    }
+}
+
+.location_section{
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    .location_bottom_left{
+        width: 270px;
+        position: absolute;
+        bottom: -30px;
+        left: 80px;
+        img{
+            max-width: 100%;
+        }
+    }
+    .location_bottom_right{
+        width: 340px;
+        position: absolute;
+        bottom: -220px;
+        right: -80px;
+        img{
+            max-width: 100%;
+        }
+    }
+    .location_flex{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .location_col{
+            &:nth-child(1){
+                width: 55%;
+            }
+            &:nth-child(2){
+                width: 38%;
+            }
+        }
+        .section_title{
+            font-family: Butler Stencil;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 55px;
+            line-height: 55px;
+            letter-spacing: -0.02px;
+            color: $linkcolor;
+            margin: 0px;
+        }
+        .location_section_text{
+            padding-top: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            line-height: 25px;
+            letter-spacing: -0.01px;
+            color: $linkcolor;
+        }
+    }
+    .location_iframe{
+        margin-top: 70px;
+    }
+}
